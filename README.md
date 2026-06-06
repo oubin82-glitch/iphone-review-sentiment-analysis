@@ -99,24 +99,9 @@ LDA 主题建模（余弦相似度寻优）→ 主题解读 → 词云 & pyLDAvi
 
 ---
 
-## 快速开始
 
-```bash
-# 1. 安装依赖
-pip install pandas numpy jieba gensim wordcloud matplotlib pysenti pyLDAvis
-
-# 2. 按顺序运行
-jupyter notebook preprocess.ipynb   # 数据预处理
-jupyter notebook sentiment.ipynb    # 情感分析
-jupyter notebook lda_model.ipynb    # 主题建模
 ```
 
-> 注意：爬虫部分（`spider.ipynb`）需要有效的京东登录 Cookie，已脱敏处理。
 
----
 
-## 作者
 
-**欧彬** · 上海立信会计金融学院 · 数据科学与大数据技术 · 2024 届
-
-指导教师：胡翠华
